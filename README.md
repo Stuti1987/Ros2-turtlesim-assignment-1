@@ -4,7 +4,10 @@ Name: Stuti Gaurav Mathur
 
 ID: 9688
 
+the file is uploaded as a zip file and needs to be downloaded to access
+
 1- in terminal type:
+
                        cd a1
                       source /opt/ros/lyrical/setup.bash
                       source install/setup.bash
