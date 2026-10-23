@@ -24,17 +24,20 @@ ID: 9688
                       ros2 service call /reset_turtle package_interfaces/srv/ResetTurtle "{}"
 
 4-to run the draw square action type:
+
                       ros2 action send_goal /draw_square package_interfaces/action/DrawSquare "{side_length: 2.0}"
 
 #this draws the square with the length of 2 
 #the length can vary from 1 to 5(almost half of the window as the turtle stats from the middle) 
 
 5-to change the speed to the turtle type:
+
                       ros2 service call /set_speed_limit package_interfaces/srv/SetSpeedLimit "{max_linear: 2, max_angular: 2}"
 
 #the ranges for both linear and angular speeds are from 0.1 to 2 (0 dosen't move the turtle)
 
 6-to play the recorded bag file type:
+
                       ros2 bag play ~/a1/square_test --topics /turtle1/cmd_vel --rate 1.0
 
 #this plays the recorded DrawSquare action
