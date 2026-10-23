@@ -1,5 +1,7 @@
 Assignment 1 for design of mechatronics systems
+
 Name: Stuti Gaurav Mathur
+
 ID: 9688
 
 1- in terminal type:
